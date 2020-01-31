@@ -42,7 +42,7 @@ header .navbar-default{
     content: "";
     display: inline-block;
     width: 100px;
-    height: 2px;
+    height: 3px;
     background-color: white;
     position: relative;
     bottom: 18px;
@@ -54,14 +54,34 @@ header .navbar-default{
 }
 
 .white{
-    height: 725px
+    height: 750px
 }
 
 .row-one h2{
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    color: #2c3e50
+    color: #2c3e50;
+    padding-top: 80px
+}
+
+.ms--starblue .glyphicon{
+    color: #2c3e50;
+}
+
+.ms--starblue::before,
+.ms--starblue::after{
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 3px;
+    background-color: #2c3e50;
+    position: relative;
+    bottom: 18px;
+}
+
+.row-two{
+    padding-top: 75px
 }
 
 .pad{
@@ -69,9 +89,15 @@ header .navbar-default{
     padding-bottom: 80px
 }
 
+.short{
+    height: 520px
+}
+
 .text{
     color: white;
-    font-size: 20px
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px
 }
 
 .row-four .btn{
@@ -79,16 +105,57 @@ header .navbar-default{
     background-color: #1abc9c;
     border: 2px solid white;
     margin-top: 20px;
-    padding-left: 10px
+    padding: 15px 20px;
+    font-size: 20px
 }
 
-.short{
-    height: 450px
+.row-four .btn .glyphicon-save{
+    font-size: 20px
+}
+
+.white{
+
 }
 
 .row-five h2{
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    color: #2c3e50
+    color: #2c3e50;
+    padding-top: 50px;
+}
+
+.form-group input {
+    border: none;
+    border-radius: 0;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-top: 50px;
+    font-size: x-large;
+    border-style: none;
+    box-shadow: none;
+    border-bottom: 1px solid lightgray
+}
+
+.btn-group-lg>.btn, #color-lb{
+    color: white;
+    background-color: #1abc9c;
+    padding: 15px 25px
+}
+
+.bnone textarea{
+    border: none;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 0;
+    border-bottom: 1px solid lightgray
+}
+
+.white-two{
+    height: 950px
+}
+
+.blue-two{
+    background-color: #2c3e50;
+    height: 300px
 }
